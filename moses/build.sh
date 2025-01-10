@@ -2,8 +2,8 @@
 
 # moses needs gcc/g++ v5
 
-sudo ln -sf /usr/bin/g++-5 /usr/bin/g++
-sudo ln -sf /usr/bin/gcc-5 /usr/bin/gcc
+#sudo ln -sf /usr/bin/g++-5 /usr/bin/g++
+#sudo ln -sf /usr/bin/gcc-5 /usr/bin/gcc
 
 export TBENCH_PATH=${PWD}/../harness
 export CPATH=${TBENCH_PATH}${CPATH:+:$CPATH}
@@ -14,5 +14,5 @@ export CPATH=${TBENCH_PATH}${CPATH:+:$CPATH}
 #    sudo chgrp huawei moses.ini
 #fi
 
-sudo ln -sf /usr/bin/g++-7 /usr/bin/g++
-sudo ln -sf /usr/bin/gcc-7 /usr/bin/gcc
+sudo ln -sf /usr/bin/g++-13 /usr/bin/g++
+sudo ln -sf /usr/bin/gcc-13 /usr/bin/gcc

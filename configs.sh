@@ -25,8 +25,8 @@ elif [ "$(hostname)" == "xpl2" ]; then
 
 else
 	
-	DATA_ROOT=/home/huawei/tailbench.inputs
+	DATA_ROOT=/home/master/tailbench.inputs
 	JDK_PATH=/usr/lib/jvm/java-8-openjdk-amd64
-	SCRATCH_DIR=/home/huawei/tailbench-repo/tailbench/pathtoscratch
+	SCRATCH_DIR=/home/master/tailbench/scratch
 fi
 
